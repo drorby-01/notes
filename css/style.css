@@ -1,0 +1,31 @@
+body{
+    background-image: url(../images/tile.jpg)
+}
+
+h1{
+    font-family: 'Trade Winds' ;
+    text-align: center;
+    margin: 20px
+}
+
+input{
+    display: block;
+    margin-left: 10px;
+}
+
+input[type="time"]{
+    margin-bottom: 10px;
+}
+.mission-insert{
+    background-image: url(../images/formbg.jpg);
+    padding: 20px;
+}
+
+.fade-in{
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
